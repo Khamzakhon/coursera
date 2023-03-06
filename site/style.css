@@ -1,1 +1,39 @@
- 
+		body {
+			margin:0;
+		}
+		div.super {
+			font-weight: bold;
+			background-color: lightblue;
+		}
+		.imagebackround {
+			background-color: yellow;
+		}
+
+		header li {
+			list-style:none;
+		}
+
+		a:link, a:visited {
+			display: block;
+			color: black;
+			border: black;
+			margin-bottom: 1px;
+			width: 300px;
+			background-color:green ;
+			text-align: center;
+			text-decoration: none;
+		}
+		div.box {
+			background-color: red;
+
+		}
+		div.content {
+			background-color: purple;
+			width: 400px;
+			align-content: center;
+			padding: 20px 50px 20px 50px;
+			border: 30px solid grey;
+			margin: 10px;
+			box-sizing: border-box;
+
+		}
