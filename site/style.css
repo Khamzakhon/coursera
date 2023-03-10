@@ -1,6 +1,10 @@
 		body {
 			margin:0;
 		}
+
+		* {
+			box-sizing: border-box;
+		}
 		div.super {
 			font-weight: bold;
 			background-color: lightblue;
@@ -32,8 +36,11 @@
 			width: 400px;
 			align-content: center;
 			padding: 20px 50px 20px 50px;
-			border: 30px solid grey;
-			margin: 10px;
-			box-sizing: border-box;
+			border: 30px solid black;
+			margin-top: 30p;
+			
 
+		}
+		p.software {
+			margin-bottom: 20px;
 		}
