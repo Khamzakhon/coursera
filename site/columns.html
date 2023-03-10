@@ -6,23 +6,45 @@
 	<title>Columns</title>
 
 <style>
+	div {
+		background-color: blue;
+		height: 130px;
+		box-sizing: border-box;
+	}
 	p {
 		width: 50px;
 		height: 50px;
+		border: 1px solid black;
+		float: left;
+		margin: 2px;
 	}
-	div {
-		background-color: blue;
-		height: 400px;
+	#p1 {
+		background-color: brown;
+		}
+	#p2 {
+		background-color: #DEB887;
 	}
+	#p3 {
+		background-color: #5F9EA0;
+		clear: left;
+	}
+	#p4 {
+		background-color: #FF7F50;
+	}
+	
+	
 </style>
 
 </head>
 <body>
+<h1>Floating elements</h1>
 <div>
 	<p id="p1"></p>
 	<p id="p2"></p>
 	<p id="p3"></p>
 	<p id="p4"></p>
+	<section style="padding: 0; clear: both;">This is a regular content continuing after the paragraph boxes</section>
 </div>
+
 </body>
 </html>
