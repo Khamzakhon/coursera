@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>media query</title>
+</head>
+<style>
+body {
+	margin: 0;
+}
+h1 {
+	padding-bottom: 15px;
+}
+
+p {
+	border: 1px solic black;
+}
+#p1 {
+	width: 100px;
+	height: 100px;
+}
+#p2 {
+	width: 50px;
+	height: 50px;
+}
+@media (max-width:991) {
+	#p1 {
+		width: 50%;
+		height: 100px;
+	}
+	#p2 {
+		width: 30%;
+		height: 50px;
+	}
+}
+
+</style>
+<body>
+<h1>Media Query</h1>
+<p id="p1">This is the first box to test what has been learned</p>
+<p id="p2">This is the second box to test what has been learned</p>
+</body>
+</html>
