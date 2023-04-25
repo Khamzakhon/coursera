@@ -9,24 +9,35 @@
 	* {
 		box-sizing: border-box;
 	}
+	h1 {
+		margin-bottom:15px ;
+	}
 	p {
-		border: 1px solid black;
-		background: white;
-		margin-left: auto;
-		margin-right: auto;
-		width: 100%;
+		border: 1px solid green;
+		background: red;
+		margin:5px;
+		width: 95%;
 		color: blue;
+		height: 150px;
 	}
 	.row {
-		width: 100%;
+		width: 90%;
+		margin-right: auto;
+		margin-left: auto;
 	}
-	.col-lg-3 {
-		width: 25%;
+	
+	@media (min-width:1200px) {
+		.col-lg-3 {
+			float: left;
+			width: 25%;
+		}
 	}
-	.col-md-6 {
-		width: 60%;
+	@media (min-width:991px) and (max-width:1199px) {
+		.col-md-6 {
+			float: left;
+			width: 50%;
+		}
 	}
-
 </style>
 
 <body>
